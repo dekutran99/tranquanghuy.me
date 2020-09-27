@@ -8,9 +8,11 @@
     "@testing-library/user-event": "^7.1.2",
     "express": "^4.17.1",
     "http-errors": "^1.8.0",
+    "mdx.macro": "^0.2.9",
+    "pg-promise": "^10.6.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "^3.4.3"
   },
   "scripts": {
     "build-react": "react-scripts build",

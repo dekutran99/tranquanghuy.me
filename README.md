@@ -5,7 +5,7 @@
 
   I use Heroku to deploy the app.
   
-### Technology
+#### Technology
 <ul>
   <li>Database: PostgreSQL</li>
   <li>Server: Node.js</li>

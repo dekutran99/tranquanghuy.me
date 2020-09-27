@@ -5,6 +5,11 @@ import express from 'express';
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 
+import {
+	app,
+	db
+} from '../app';
+
 import App from '../../src/App.js';
 
 
@@ -17,7 +22,7 @@ router.get('/', (req, res) => {
 	const indexFile = path.resolve('./build/index.html');
 	fs.readFile(indexFile, 'utf8', (err, data) => {
 		if (err) {
-			console.error('Something went wrong:', err);
+			console.error('Error: ', err);
 			return res.status(500).send('Internal server error.');
 		}
 		return res.send(

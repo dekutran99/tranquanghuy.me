@@ -5,10 +5,10 @@ import pg from 'pg-promise';
 // Create express server
 const app = express();
 const PORT = 3000;
-const createError = require('http-errors');
+// const createError = require('http-errors');
 
 // Connect to app's database
-const db = pg(process.env.TRANQUANGHUYDOTME_DATABASE_URL);
+const db = pg()(process.env.TRANQUANGHUYDOTME_DATABASE_URL);
 
 app.use('/', router);
 

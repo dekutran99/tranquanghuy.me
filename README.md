@@ -1,9 +1,6 @@
 # Personal Blog
 
-
 ## Documentation
-
-  I use Heroku to deploy the app.
   
 #### Technology
 <ul>

@@ -1,4 +1,4 @@
-# Personal Blog
+# Project is on hiatus...lol
 
 ## Documentation
   
